@@ -1,3 +1,27 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$uf-text-primary: 'Montserrat', sans-serif !default;
+$uf-text-secondary: 'Lato', sans-serif !default;
+$uf-text-tertiary : 'Merriweather', serif !default;
+$uf-text-quatiary : 'Lobster', serif !default;
+$uf-text-font-base: 16px !default;
+$uf-text-weight-slim: 400 !default;
+$uf-text-weight-fat: 700 !default;
+$uf-text-line-height-xs: 1 !default;
+$uf-text-line-height-s: 1.15 !default;
+$uf-text-line-height-m: 1.25 !default;
+$uf-text-line-height-l: 1.5 !default;
+$uf-text-line-height-xl: 1.9 !default;
+// Typography: Display
+%uf-text-andalas {
+  font-family: $uf-text-quatiary;
+  font-weight: $uf-text-weight-slim;
+  font-size: 24px;
+  line-height: $uf-text-line-height-xs;
+}
+
+.project-name {
+    @extend %uf-text-andalas;
+}
