@@ -25,3 +25,14 @@ $uf-text-line-height-xl: 1.9 !default;
 .project-name {
     @extend %uf-text-andalas;
 }
+
+.user-btn {
+	display: inline-block;
+	font-size: 2rem;
+	cursor: pointer;
+	margin-right: 5rem;
+}
+
+.search {
+  margin-right: 5rem;
+}
