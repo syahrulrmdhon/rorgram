@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :users
+  resources :sessions
+
   get 'profile/profile'
 
   get 'home/index'
