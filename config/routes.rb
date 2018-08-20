@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'login', to: 'session#new', as: 'login'
+  get 'signup', to: 'users#new', as: 'signup'
+  get 'logout', to: 'session#show', as: 'logout'
+
   resources :users
   resources :sessions
 
