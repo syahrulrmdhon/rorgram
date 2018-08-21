@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: rorgram
+  api_key: '651437244911934'
+  api_secret: xJRJsqKWYhPnogb8pUfgCQNykOI
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: rorgram
+  api_key: '651437244911934'
+  api_secret: xJRJsqKWYhPnogb8pUfgCQNykOI
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: rorgram
+  api_key: '651437244911934'
+  api_secret: xJRJsqKWYhPnogb8pUfgCQNykOI
+  enhance_image_tag: true
+  static_image_support: false

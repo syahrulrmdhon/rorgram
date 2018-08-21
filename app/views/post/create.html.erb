@@ -1,0 +1,24 @@
+<div class="modal-dialog">
+	<div class="modal-content">
+		<div class="modal-heading">
+            <div class="container">
+                <h2 class="text-center">Upload Form</h2>
+                <form method="POST" action="/post/store" enctype="multipart/form-data" class="post-form">
+                    <%= token_tag %>
+                        <div class="form-group">
+                            <label for="media">Post Media</label>
+                            <input type="file" name="media" class="form-control media-upload">
+                        </div>
+                        <div class="form-group">
+                            <label for="author">Caption</label>
+                            <input type="text" name="caption" class="form-control" />
+                        </div>
+                        <div class="from-group">
+                            <div><input type="submit" class="btn btn-info" value="Create Post"></div>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
